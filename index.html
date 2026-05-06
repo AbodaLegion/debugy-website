@@ -1,826 +1,887 @@
 <!doctype html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Debugy – Laptops, Accessories, IT Support & Marketing Agency. Premium tech solutions for individuals and businesses."
-    />
-    <meta
-      name="keywords"
-      content="laptops, accessories, IT support, repair, marketing agency, branding, digital marketing, tech"
-    />
-    <meta name="theme-color" content="#09806f" />
-    <title>Debugy – Tech. Services. Marketing.</title>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=JetBrains+Mono:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
-<div class="mouse-glow"></div>
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- Ambient blobs -->
-    <div class="blob blob-1"></div>
-    <div class="blob blob-2"></div>
-    <div class="blob blob-3"></div>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Debugy – Laptops, Accessories, IT Support & Marketing Agency. Premium tech solutions for individuals and businesses." />
+  <meta name="keywords"
+    content="laptops, accessories, IT support, repair, marketing agency, branding, digital marketing, tech" />
+  <meta name="theme-color" content="#09806f" />
+  <title>Debugy – Tech. Services. Marketing.</title>
 
-    <!-- ─── NAVBAR ──────────────────────────────────────── -->
-    <nav class="navbar" id="navbar">
-      <div class="nav-container">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=JetBrains+Mono:wght@300;400&display=swap"
+    rel="stylesheet" />
+  <div class="mouse-glow"></div>
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .product-img {
+      position: relative;
+    }
 
-        <a href="#hero" class="logo">
-          <div class="logo-icon">
-            <img src="Photos/logo2.png" alt="Debugy Logo">
-          </div> 
-        </a>
+    .product-img img {
+      border-radius: var(--r-md, 12px) var(--r-md, 12px) 0 0;
+    }
+  </style>
+</head>
 
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#products">Products</a></li>
-          <li><a href="#why">Why Us</a></li>
-          <li><a href="#testimonials">Clients</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+<body>
+  <!-- Ambient blobs -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
 
-        <a href="#contact" class="nav-cta">Get Started</a>
+  <!-- ─── NAVBAR ──────────────────────────────────────── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
 
-        <div class="hamburger" id="hamburger" aria-label="Menu">
-          <span></span><span></span><span></span>
+      <a href="#hero" class="logo">
+        <div class="logo-icon">
+          <img src="Photos/logo2.png" alt="Debugy Logo">
         </div>
-      </div>
-    </nav>
+      </a>
 
-    <!-- Mobile Menu -->
-    <div class="mobile-menu" id="mobileMenu">
-      <a href="#about"        class="mobile-link">About</a>
-      <a href="#services"     class="mobile-link">Services</a>
-      <a href="#products"     class="mobile-link">Products</a>
-      <a href="#why"          class="mobile-link">Why Us</a>
-      <a href="#testimonials" class="mobile-link">Clients</a>
-      <a href="#contact"      class="mobile-link">Contact</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#why">Why Us</a></li>
+        <li><a href="#testimonials">Clients</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a href="#contact" class="nav-cta">Get Started</a>
+
+      <div class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#services" class="mobile-link">Services</a>
+    <a href="#products" class="mobile-link">Products</a>
+    <a href="#why" class="mobile-link">Why Us</a>
+    <a href="#testimonials" class="mobile-link">Clients</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+  </div>
+
+  <!-- ─── HERO ─────────────────────────────────────────── -->
+  <section id="hero">
+    <div class="hero-badge">
+      <span class="dot"></span>
+      Tech · Services · Marketing
     </div>
 
-    <!-- ─── HERO ─────────────────────────────────────────── -->
-    <section id="hero">
-      <div class="hero-badge">
-        <span class="dot"></span>
-        Tech · Services · Marketing
+    <div class="logo">
+      <div class="logo-icon2">
+        <img src="Photos/logo3.png" alt="Debugy Logo">
       </div>
+      <span class="logo-text"></span>
+    </div>
 
-<div class="logo">
-  <div class="logo-icon2">
-    <img src="Photos/logo3.png" alt="Debugy Logo">
-  </div>
-  <span class="logo-text"></span>
-</div>
+    <div class="hero-eyebrow">
+      <span>Laptops & Accessories</span>
+      <div class="sep"></div>
+      <span>IT Services</span>
+      <div class="sep"></div>
+      <span>Marketing Agency</span>
+    </div>
 
-      <div class="hero-eyebrow">
-        <span>Laptops & Accessories</span>
-        <div class="sep"></div>
-        <span>IT Services</span>
-        <div class="sep"></div>
-        <span>Marketing Agency</span>
+    <h1 class="hero-heading">
+      Your <em>Complete</em> Tech &<br />
+      <span class="accent">Creative</span> Partner
+    </h1>
+
+    <p class="hero-sub">
+      Premium laptops, expert IT support, and results-driven marketing —
+      everything your business needs to thrive in the digital age.
+    </p>
+
+    <div class="hero-ctas">
+      <a href="#contact" class="btn btn-primary">
+        Go Now
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path d="M5 12h14M12 5l7 7-7 7" />
+        </svg>
+      </a>
+      <a href="#services" class="btn btn-outline">Explore Services</a>
+    </div>
+
+    <div class="hero-stat-strip">
+      <div class="hero-stat">
+        <div class="hero-stat-num">10+</div>
+        <div class="hero-stat-lbl">Happy Clients</div>
       </div>
-
-      <h1 class="hero-heading">
-        Your <em>Complete</em> Tech &<br />
-        <span class="accent">Creative</span> Partner
-      </h1>
-
-      <p class="hero-sub">
-        Premium laptops, expert IT support, and results-driven marketing —
-        everything your business needs to thrive in the digital age.
-      </p>
-
-      <div class="hero-ctas">
-        <a href="#contact" class="btn btn-primary">
-          Go Now
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-               stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12h14M12 5l7 7-7 7"/>
-          </svg>
-        </a>
-        <a href="#services" class="btn btn-outline">Explore Services</a>
+      <div class="hero-stat">
+        <div class="hero-stat-num">100+</div>
+        <div class="hero-stat-lbl">Devices Sold</div>
       </div>
-
-      <div class="hero-stat-strip">
-        <div class="hero-stat">
-          <div class="hero-stat-num">500+</div>
-          <div class="hero-stat-lbl">Happy Clients</div>
-        </div>
-        <div class="hero-stat">
-          <div class="hero-stat-num">1200+</div>
-          <div class="hero-stat-lbl">Devices Sold</div>
-        </div>
-        <div class="hero-stat">
-          <div class="hero-stat-num">5yr</div>
-          <div class="hero-stat-lbl">In Market</div>
-        </div>
-        <div class="hero-stat">
-          <div class="hero-stat-num">98%</div>
-          <div class="hero-stat-lbl">Satisfaction</div>
-        </div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">1 yr</div>
+        <div class="hero-stat-lbl">In Market</div>
       </div>
-
-      <div class="hero-scroll">
-        <span>Scroll</span>
-        <div class="scroll-line"></div>
+      <div class="hero-stat">
+        <div class="hero-stat-num">98%</div>
+        <div class="hero-stat-lbl">Satisfaction</div>
       </div>
-    </section>
+    </div>
 
-    <div class="section-divider"></div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
 
-    <!-- ─── ABOUT ─────────────────────────────────────────── -->
-    <section id="about">
-      <div class="section-inner">
-        <div class="about-grid">
-          <div class="about-visual reveal">
-            <div class="about-card-main">
-              <div class="about-icon-large">💻</div>
-            </div>
-            <div class="about-badge">
-              <div class="about-badge-icon">🛡️</div>
-              <div class="about-badge-text">
-                <strong>Trusted by 500+ clients</strong>
-                <span>Since 2026 · Egypt & Beyond</span>
-              </div>
-            </div>
-            <div class="about-float">&lt;// Founded 2026 /&gt;</div>
+  <div class="section-divider"></div>
+
+  <!-- ─── ABOUT ─────────────────────────────────────────── -->
+  <section id="about">
+    <div class="section-inner">
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-card-main" style="padding:0;overflow:hidden;border-radius:var(--r-lg);">
+            <img src="https://images.unsplash.com/photo-1588702547919-26089e690ecc?w=700&q=85" alt="Tech workspace"
+              style="width:100%;height:100%;object-fit:cover;display:block;min-height:280px;" />
           </div>
+          <div class="about-badge">
+            <div class="about-badge-icon">🛡️</div>
+            <div class="about-badge-text">
+              <strong>Trusted by 50+ clients</strong>
+              <span>Since 2026 · Egypt & Beyond</span>
+            </div>
+          </div>
+          <div class="about-float">&lt;// Founded 2026 /&gt;</div>
+        </div>
 
-          <div class="about-content">
-            <p class="section-label reveal">About Us</p>
-            <h2 class="section-title reveal reveal-delay-1">
-              Where <em>technology</em><br />meets <em>creativity</em>
-            </h2>
-            <p class="section-sub reveal reveal-delay-2">
-            <strong>Debugy</strong> is a technical consultancy and growth agency designed to streamline your digital life. We provide a 360-degree approach to technology: from Expert Laptop Acquisition 
-            (helping you buy right the first time) and Hardware Maintenance, to Strategic Marketing that scales your professional reach.
-             We treat tech like an ecosystem—it needs to be the right fit, it needs to be maintained, and it needs to perform.
-            </p>
-            <p class="section-sub reveal reveal-delay-3" style="margin-top:12px;">
-              Whether you're an individual upgrading your setup or a company
-              building its digital presence, our team of specialists is
-              dedicated to your success.
-            </p>
+        <div class="about-content">
+          <p class="section-label reveal">About Us</p>
+          <h2 class="section-title reveal reveal-delay-1">
+            Where <em>technology</em><br />meets <em>creativity</em>
+          </h2>
+          <p class="section-sub reveal reveal-delay-2">
+            <strong>Debugy</strong> is a technical consultancy and growth agency designed to streamline your digital
+            life. We provide a 360-degree approach to technology: from Expert Laptop Acquisition
+            (helping you buy right the first time) and Hardware Maintenance, to Strategic Marketing that scales your
+            professional reach.
+            We treat tech like an ecosystem—it needs to be the right fit, it needs to be maintained, and it needs to
+            perform.
+          </p>
+          <p class="section-sub reveal reveal-delay-3" style="margin-top:12px;">
+            Whether you're an individual upgrading your setup or a company
+            building its digital presence, our team of specialists is
+            dedicated to your success.
+          </p>
 
-            <div class="about-pillars">
-              <div class="pillar reveal reveal-delay-1">
-                <div class="pillar-icon">🖥️</div>
-                <div class="pillar-title">Hardware</div>
-                <div class="pillar-text">Curated laptops & accessories for every need and budget.</div>
+          <div class="about-pillars">
+            <div class="pillar reveal reveal-delay-1">
+              <div class="pillar-icon">
+                <i data-lucide="laptop"></i>
               </div>
-              <div class="pillar reveal reveal-delay-2">
-                <div class="pillar-icon">⚙️</div>
-                <div class="pillar-title">IT Services</div>
-                <div class="pillar-text">Repair, maintenance & enterprise-grade IT support.</div>
-              </div>
-              <div class="pillar reveal reveal-delay-3">
-                <div class="pillar-icon">🎨</div>
-                <div class="pillar-title">Branding</div>
-                <div class="pillar-text">Visual identity design that tells your story.</div>
-              </div>
-              <div class="pillar reveal reveal-delay-4">
-                <div class="pillar-icon">📈</div>
-                <div class="pillar-title">Marketing</div>
-                <div class="pillar-text">Digital campaigns that deliver measurable ROI.</div>
-              </div>
+              <div class="pillar-title">Hardware</div>
+              <div class="pillar-text">Curated laptops & accessories for every need and budget.</div>
+            </div>
+            <div class="pillar reveal reveal-delay-2">
+              <i data-lucide="settings"></i>
+              <div class="pillar-title">IT Services</div>
+              <div class="pillar-text">Repair, maintenance & enterprise-grade IT support.</div>
+            </div>
+            <div class="pillar reveal reveal-delay-3">
+              <i data-lucide="palette"></i>
+              <div class="pillar-title">Branding</div>
+              <div class="pillar-text">Visual identity design that tells your story.</div>
+            </div>
+            <div class="pillar reveal reveal-delay-4">
+              <i data-lucide="trending-up"></i>
+              <div class="pillar-title">Marketing</div>
+              <div class="pillar-text">Digital campaigns that deliver measurable ROI.</div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <div class="section-divider"></div>
+  <div class="section-divider"></div>
 
-    <!-- ─── SERVICES ──────────────────────────────────────── -->
-    <section id="services">
-      <div class="section-inner">
-        <div class="services-header">
-          <p class="section-label reveal">What We Do</p>
-          <h2 class="section-title reveal reveal-delay-1">Our <em>Services</em></h2>
-          <p class="section-sub reveal reveal-delay-2">Three pillars. Infinite possibilities. One dedicated team.</p>
+  <!-- ─── SERVICES ──────────────────────────────────────── -->
+  <section id="services">
+    <div class="section-inner">
+      <div class="services-header">
+        <p class="section-label reveal">What We Do</p>
+        <h2 class="section-title reveal reveal-delay-1">Our <em>Services</em></h2>
+        <p class="section-sub reveal reveal-delay-2">Three pillars. Infinite possibilities. One dedicated team.</p>
+      </div>
+
+      <!-- Full-width card -->
+      <div class="service-card reveal reveal-delay-1" style="border-radius:var(--r-lg);margin-bottom:1px;">
+        <div class="service-num">01 — Laptops</div>
+        <div class="service-icon"><i class="fa-solid fa-laptop"></i> </i></div>
+        <h3 class="service-title">Laptop Sales & Solutions</h3>
+        <p class="service-desc">
+          Discover a wide range of high-performance laptops for students, professionals, and businesses.
+          We provide expert guidance to help you choose the perfect device with the best value.
+        </p>
+        <div class="service-tags">
+          <span class="service-tag">Gaming Laptops</span>
+          <span class="service-tag">Business Devices</span>
+          <span class="service-tag">Accessories</span>
+          <span class="service-tag">Warranty</span>
         </div>
+      </div>
 
-        <!-- Full-width card -->
-        <div class="service-card reveal reveal-delay-1" style="border-radius:var(--r-lg);margin-bottom:1px;">
-          <div class="service-num">01 — Laptops</div>
-          <div class="service-icon">💻</div>
-          <h3 class="service-title">Laptop Sales & Solutions</h3>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-num">02 — IT Services</div>
+          <div class="service-icon"><i class="fa-solid fa-gear"></i> </div>
+          <h3 class="service-title">Repair & Technical Support</h3>
           <p class="service-desc">
-            Discover a wide range of high-performance laptops for students, professionals, and businesses.
-            We provide expert guidance to help you choose the perfect device with the best value.
+            From hardware diagnostics to software recovery, our certified technicians handle it all.
+            On-site and remote support available.
           </p>
           <div class="service-tags">
-            <span class="service-tag">Gaming Laptops</span>
-            <span class="service-tag">Business Devices</span>
-            <span class="service-tag">Accessories</span>
-            <span class="service-tag">Warranty</span>
+                   <span class="service-tag">Laptop Repair</span>
+                  <span class="service-tag">OS Installation</span>
+                  <span class="service-tag">Software Setup</span>
+                  <span class="service-tag">Drivers</span>
+                  <span class="service-tag">Data Recovery</span>
+                  <span class="service-tag">Performance Boost</span>
           </div>
         </div>
 
-        <div class="services-grid">
-          <div class="service-card reveal">
-            <div class="service-num">02 — IT Services</div>
-            <div class="service-icon">🔧</div>
-            <h3 class="service-title">Repair & Technical Support</h3>
-            <p class="service-desc">
-              From hardware diagnostics to software recovery, our certified technicians handle it all.
-              On-site and remote support available.
-            </p>
-            <div class="service-tags">
-              <span class="service-tag">Laptop Repair</span>
-              <span class="service-tag">Data Recovery</span>
-              <span class="service-tag">Networking</span>
-              <span class="service-tag">OS Install</span>
-            </div>
+        <div class="service-card reveal reveal-delay-2">
+
+          <div class="service-num">03 — Creative & Marketing</div>
+
+          <div class="service-icon">
+            <i data-lucide="sparkles"></i>
           </div>
 
-          <div class="service-card reveal reveal-delay-2">
-            <div class="service-num">03 — Creative</div>
-            <div class="service-icon">✦</div>
-            <h3 class="service-title">Branding & Visual Design</h3>
-            <p class="service-desc">
-              Logo design, brand identity, packaging, UI/UX — we craft visuals that leave a lasting
-              impression and communicate your values.
-            </p>
-            <div class="service-tags">
-              <span class="service-tag">Logo Design</span>
-              <span class="service-tag">Brand Identity</span>
-              <span class="service-tag">UI/UX</span>
-              <span class="service-tag">Print</span>
-            </div>
-          </div>
+          <h3 class="service-title">Branding, Marketing & Content Solutions</h3>
 
-          <div class="service-card reveal reveal-delay-3">
-            <div class="service-num">04 — Digital Marketing</div>
-            <div class="service-icon">📣</div>
-            <h3 class="service-title">Growth & Lead Generation</h3>
-            <p class="service-desc">
-              Social media management, paid ads, SEO, and content strategy that drives real business
-              results — not just vanity metrics.
-            </p>
-            <div class="service-tags">
-              <span class="service-tag">Social Media</span>
-              <span class="service-tag">Paid Ads</span>
-              <span class="service-tag">SEO</span>
-              <span class="service-tag">Analytics</span>
-            </div>
-          </div>
-
-          <div class="service-card reveal reveal-delay-4">
-            <div class="service-num">05 — Content</div>
-            <div class="service-icon">🎬</div>
-            <h3 class="service-title">Video & Photography</h3>
-            <p class="service-desc">
-              Product photography, promotional videos, reels, and corporate content that elevates
-              your brand's storytelling.
-            </p>
-            <div class="service-tags">
-              <span class="service-tag">Product Shoots</span>
-              <span class="service-tag">Reels</span>
-              <span class="service-tag">Ad Videos</span>
-              <span class="service-tag">Animation</span>
-            </div>
-          </div>
-
-          <div class="service-card reveal reveal-delay-5">
-            <div class="service-num">06 — Web</div>
-            <div class="service-icon">💡</div>
-            <h3 class="service-title">Web Development</h3>
-            <p class="service-desc">
-              High-performance websites and e-commerce stores built for speed, conversions, and a
-              seamless user experience.
-            </p>
-            <div class="service-tags">
-              <span class="service-tag">Landing Pages</span>
-              <span class="service-tag">E-Commerce</span>
-              <span class="service-tag">CMS</span>
-              <span class="service-tag">Maintenance</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div class="section-divider"></div>
-
-    <!-- ─── PRODUCTS ──────────────────────────────────────── -->
-    <section id="products">
-      <div class="section-inner">
-        <div class="products-header">
-          <div>
-            <p class="section-label reveal">Our Store</p>
-            <h2 class="section-title reveal reveal-delay-1">Featured <em>Products</em></h2>
-          </div>
-          <div class="product-filter reveal reveal-delay-2">
-            <button class="filter-btn active" data-filter="all">All</button>
-            <button class="filter-btn" data-filter="laptop">Laptops</button>
-            <button class="filter-btn" data-filter="accessory">Accessories</button>
-          </div>
-        </div>
-
-        <div class="products-grid">
-          <div class="product-card reveal" data-category="laptop">
-            <div class="product-img">
-              💻
-              <span class="product-badge hot">🔥 Hot</span>
-            </div>
-            <div class="product-body">
-              <div class="product-category">Laptop</div>
-              <h3 class="product-name">MacBook Pro M3 14"</h3>
-              <p class="product-specs">Apple M3 Pro · 18GB RAM · 512GB SSD · Space Black</p>
-              <div class="product-footer">
-                <span class="product-price">EGP 89,999</span>
-                <button class="product-cta">Inquire</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-card reveal reveal-delay-1" data-category="laptop">
-            <div class="product-img" style="font-size:4.5rem;">
-              🖥️
-              <span class="product-badge">New</span>
-            </div>
-            <div class="product-body">
-              <div class="product-category">Laptop</div>
-              <h3 class="product-name">Dell XPS 15 OLED</h3>
-              <p class="product-specs">Intel Core i9 · 32GB RAM · 1TB SSD · OLED Touch</p>
-              <div class="product-footer">
-                <span class="product-price">EGP 72,500</span>
-                <button class="product-cta">Inquire</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-card reveal reveal-delay-2" data-category="laptop">
-            <div class="product-img">
-              🏅
-              <span class="product-badge">Best Value</span>
-            </div>
-            <div class="product-body">
-              <div class="product-category">Laptop</div>
-              <h3 class="product-name">ASUS ROG Zephyrus G14</h3>
-              <p class="product-specs">Ryzen 9 · RTX 4060 · 16GB RAM · 1TB SSD</p>
-              <div class="product-footer">
-                <span class="product-price">EGP 54,000</span>
-                <button class="product-cta">Inquire</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-card reveal reveal-delay-1" data-category="laptop">
-            <div class="product-img">⌨️</div>
-            <div class="product-body">
-              <div class="product-category">Laptop</div>
-              <h3 class="product-name">ThinkPad X1 Carbon</h3>
-              <p class="product-specs">Intel Core i7 · 16GB RAM · 512GB SSD · Carbon Black</p>
-              <div class="product-footer">
-                <span class="product-price">EGP 49,000</span>
-                <button class="product-cta">Inquire</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-card reveal reveal-delay-2" data-category="accessory">
-            <div class="product-img" style="font-size:4rem;">
-              🖱️
-              <span class="product-badge">Popular</span>
-            </div>
-            <div class="product-body">
-              <div class="product-category">Accessory</div>
-              <h3 class="product-name">Logitech MX Master 3S</h3>
-              <p class="product-specs">Wireless · 8000 DPI · Quiet Click · USB-C Charging</p>
-              <div class="product-footer">
-                <span class="product-price">EGP 2,800</span>
-                <button class="product-cta">Inquire</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="product-card reveal reveal-delay-3" data-category="accessory">
-            <div class="product-img" style="font-size:4rem;">🎧</div>
-            <div class="product-body">
-              <div class="product-category">Accessory</div>
-              <h3 class="product-name">Sony WH-1000XM5</h3>
-              <p class="product-specs">ANC · 30hr Battery · Hi-Res Audio · Midnight Black</p>
-              <div class="product-footer">
-                <span class="product-price">EGP 9,500</span>
-                <button class="product-cta">Inquire</button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div style="text-align:center;margin-top:48px;" class="reveal">
-          <a href="#contact" class="btn btn-outline">View Full Catalog →</a>
-        </div>
-      </div>
-    </section>
-
-    <div class="section-divider"></div>
-
-    <!-- ─── WHY US ────────────────────────────────────────── -->
-    <section id="why">
-      <div class="section-inner">
-        <div class="why-grid">
-          <div>
-            <p class="section-label reveal">Why Debugy</p>
-            <h2 class="section-title reveal reveal-delay-1">
-              Built for<br /><em>results</em>, not<br />just projects
-            </h2>
-<p class="section-sub reveal reveal-delay-2" style="margin-bottom:40px;">
-    Why <strong>Debugy</strong>? Most people buy technology based on a "best-seller" list, 
-    only to realize six months later that the hardware can’t handle their specific workflow. 
-    <br><br>
-    <strong>Debugy</strong> started as a response to this frustration. We saw too many students, 
-    engineers, and creators struggling with underpowered laptops or overpaying for 
-    features they’d never use. We began by providing deep-dive technical advice—matching 
-    the right specs to the right user—and grew into a full-service hub for repair and marketing. 
-    We don't just know how machines work; we know how people work with machines.
-</p>
-
-            <div class="why-features">
-              <div class="why-feature reveal reveal-delay-1">
-                <div class="why-feature-icon">🏆</div>
-                <div class="why-feature-content">
-                  <div class="why-feature-title">Certified Expertise</div>
-                  <div class="why-feature-text">Our engineers and designers hold industry certifications, ensuring top-quality delivery every time.</div>
-                </div>
-              </div>
-              <div class="why-feature reveal reveal-delay-2">
-                <div class="why-feature-icon">⚡</div>
-                <div class="why-feature-content">
-                  <div class="why-feature-title">Fast Turnaround</div>
-                  <div class="why-feature-text">We respect your time. Most repairs in 24h, most designs within a week — without cutting corners.</div>
-                </div>
-              </div>
-              <div class="why-feature reveal reveal-delay-3">
-                <div class="why-feature-icon">🤝</div>
-                <div class="why-feature-content">
-                  <div class="why-feature-title">End-to-End Support</div>
-                  <div class="why-feature-text">From purchase to maintenance to marketing — we're your single point of contact for everything tech.</div>
-                </div>
-              </div>
-              <div class="why-feature reveal reveal-delay-4">
-                <div class="why-feature-icon">💰</div>
-                <div class="why-feature-content">
-                  <div class="why-feature-title">Transparent Pricing</div>
-                  <div class="why-feature-text">No hidden fees. No surprises. We quote clearly and deliver exactly what we promise.</div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="why-visual reveal reveal-delay-2">
-            <div class="why-metric">
-              <div class="why-metric-val">500+</div>
-              <div class="why-metric-lbl">Happy Clients</div>
-            </div>
-            <div class="why-metric">
-              <div class="why-metric-val">98%</div>
-              <div class="why-metric-lbl">Satisfaction Rate</div>
-            </div>
-            <div class="why-metric">
-              <div class="why-metric-val">24h</div>
-              <div class="why-metric-lbl">Average Repair Time</div>
-            </div>
-            <div class="why-metric">
-              <div class="why-metric-val">5★</div>
-              <div class="why-metric-lbl">Average Rating</div>
-            </div>
-            <div class="why-metric tall">
-              <div class="why-metric-val" style="font-size:2rem;color:var(--c-accent);">
-                "Your success is our metric"
-              </div>
-              <div class="why-metric-lbl" style="margin-top:8px;">— The Debugy Team</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div class="section-divider"></div>
-
-    <!-- ─── TESTIMONIALS ──────────────────────────────────── -->
-    <section id="testimonials">
-      <div class="section-inner">
-        <p class="section-label reveal">Client Love</p>
-        <h2 class="section-title reveal reveal-delay-1">What our <em>clients</em> say</h2>
-        <p class="section-sub reveal reveal-delay-2">
-          Real feedback from real clients — individuals, startups, and established companies.
-        </p>
-
-        <div class="testimonials-grid">
-          <div class="testi-card reveal reveal-delay-1">
-            <div class="testi-quote">"</div>
-            <div class="testi-stars">
-              <span class="testi-star">★</span><span class="testi-star">★</span>
-              <span class="testi-star">★</span><span class="testi-star">★</span><span class="testi-star">★</span>
-            </div>
-            <p class="testi-text">Debugy revamped our entire brand identity and launched our social media campaigns. Within 3 months, our leads doubled. Absolutely exceptional team.</p>
-            <div class="testi-author">
-              <div class="testi-avatar">A</div>
-              <div>
-                <div class="testi-name">Ahmed Mostafa</div>
-                <div class="testi-role">CEO, Nile Ventures</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="testi-card reveal reveal-delay-2">
-            <div class="testi-quote">"</div>
-            <div class="testi-stars">
-              <span class="testi-star">★</span><span class="testi-star">★</span>
-              <span class="testi-star">★</span><span class="testi-star">★</span><span class="testi-star">★</span>
-            </div>
-            <p class="testi-text">My MacBook had a serious issue and Debugy fixed it in less than 24 hours. Professional, honest, and affordable. They're my go-to for everything tech.</p>
-            <div class="testi-author">
-              <div class="testi-avatar">S</div>
-              <div>
-                <div class="testi-name">Sara Khaled</div>
-                <div class="testi-role">Freelance Designer</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="testi-card reveal reveal-delay-3">
-            <div class="testi-quote">"</div>
-            <div class="testi-stars">
-              <span class="testi-star">★</span><span class="testi-star">★</span>
-              <span class="testi-star">★</span><span class="testi-star">★</span><span class="testi-star">★</span>
-            </div>
-            <p class="testi-text">We purchased 15 laptops for our office through Debugy. Great pricing, fast delivery, and they even set up our network. A true one-stop shop!</p>
-            <div class="testi-author">
-              <div class="testi-avatar">M</div>
-              <div>
-                <div class="testi-name">Mohamed Tarek</div>
-                <div class="testi-role">Operations Manager, TechHub</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="testi-card reveal reveal-delay-1">
-            <div class="testi-quote">"</div>
-            <div class="testi-stars">
-              <span class="testi-star">★</span><span class="testi-star">★</span>
-              <span class="testi-star">★</span><span class="testi-star">★</span><span class="testi-star">★</span>
-            </div>
-            <p class="testi-text">Their digital marketing team is phenomenal. Our Instagram grew from 2K to 28K followers in 6 months, and sales followed. Real professionals.</p>
-            <div class="testi-author">
-              <div class="testi-avatar">L</div>
-              <div>
-                <div class="testi-name">Layla Hassan</div>
-                <div class="testi-role">Founder, Glow Beauty</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="testi-card reveal reveal-delay-2">
-            <div class="testi-quote">"</div>
-            <div class="testi-stars">
-              <span class="testi-star">★</span><span class="testi-star">★</span>
-              <span class="testi-star">★</span><span class="testi-star">★</span><span class="testi-star">★</span>
-            </div>
-            <p class="testi-text">من أفضل الشركات اللي تعاملت معاها. فريق محترف جداً وخدمة ممتازة. اشتريت لابتوب وعملوا صيانة دورية — كل حاجة تمام.</p>
-            <div class="testi-author">
-              <div class="testi-avatar">ك</div>
-              <div>
-                <div class="testi-name">كريم إبراهيم</div>
-                <div class="testi-role">مهندس برمجيات</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="testi-card reveal reveal-delay-3">
-            <div class="testi-quote">"</div>
-            <div class="testi-stars">
-              <span class="testi-star">★</span><span class="testi-star">★</span>
-              <span class="testi-star">★</span><span class="testi-star">★</span><span class="testi-star">★</span>
-            </div>
-            <p class="testi-text">Debugy built our e-commerce website and handled our ad campaigns. The ROI was incredible — 4x return on ad spend in the first quarter alone.</p>
-            <div class="testi-author">
-              <div class="testi-avatar">N</div>
-              <div>
-                <div class="testi-name">Nour El-Din</div>
-                <div class="testi-role">E-Commerce Entrepreneur</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div class="section-divider"></div>
-
-    <!-- ─── CONTACT ───────────────────────────────────────── -->
-    <section id="contact">
-      <div class="section-inner">
-        <div style="text-align:center;max-width:600px;margin:0 auto 72px;">
-          <p class="section-label reveal" style="justify-content:center;">Get In Touch</p>
-          <h2 class="section-title reveal reveal-delay-1">Let's build something <em>great</em></h2>
-          <p class="section-sub reveal reveal-delay-2" style="margin:12px auto 0;">
-            Ready to start? Drop us a message and we'll get back to you within 24 hours.
+          <p class="service-desc">
+            We provide complete creative and digital marketing solutions including branding, social media,
+            paid ads, SEO, and professional content creation to grow your business and build a strong identity.
           </p>
-        </div>
 
-        <div class="contact-grid">
-          <div class="contact-info reveal">
-            <p class="section-label">Reach Us</p>
-            <h3 class="section-title" style="font-size:2rem;">We're always<br /><em>available</em></h3>
-            <p class="section-sub" style="margin-top:12px;">
-              Offices in Egypt. Remote globally. Available 7 days a week for urgent support.
-            </p>
-              
-            <div class="contact-channels">
-              <a href="https://wa.me/201149253355" target="_blank" class="contact-channel">
-                <div class="contact-channel-icon">📱</div>
-                <div>
-                  <div class="contact-channel-label">WhatsApp</div>
-                  <div class="contact-channel-val">+20 1149253355</div>
-                </div>
-              </a>
-              <a href="mailto:debugyservices@gmail.com" class="contact-channel">
-                <div class="contact-channel-icon">✉️</div>
-                <div>
-                  <div class="contact-channel-label">Email</div>
-                  <div class="contact-channel-val">debugyservices@gmail.com</div>
-                </div>
-              </a>
-              <div class="contact-channel">
-                <div class="contact-channel-icon">📍</div>
-                <div>
-                  <div class="contact-channel-label">Location</div>
-                  <div class="contact-channel-val">Cairo, Egypt</div>
-                </div>
-              </div>
-              <div class="contact-channel">
-                <div class="contact-channel-icon">🕐</div>
-                <div>
-                  <div class="contact-channel-label">Working Hours</div>
-                  <div class="contact-channel-val">Sat–Thu · 9AM – 9PM</div>
-                </div>
-              </div>
-            </div>
+          <div class="service-tags">
+            <span class="service-tag">Brand Identity</span>
+            <span class="service-tag">UI/UX</span>
+            <span class="service-tag">Social Media</span>
+            <span class="service-tag">Paid Ads</span>
+            <span class="service-tag">SEO</span>
+            <span class="service-tag">Content Creation</span>
+            <span class="service-tag">Video & Photography</span>
           </div>
 
-          <div class="contact-form reveal reveal-delay-2">
-            <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:400;margin-bottom:28px;">
-              Send us a message
-            </h3>
+        </div>
 
-            <form id="contactForm" novalidate>
-              <div class="form-row">
-                <div class="form-group">
-                  <label class="form-label" for="fname">First Name</label>
-                  <input class="form-input" type="text" id="fname" name="fname" placeholder="Ahmed" required />
-                  <div class="form-error" id="fname-error">Please enter your first name.</div>
-                </div>
-                <div class="form-group">
-                  <label class="form-label" for="lname">Last Name</label>
-                  <input class="form-input" type="text" id="lname" name="lname" placeholder="Mohamed" required />
-                  <div class="form-error" id="lname-error">Please enter your last name.</div>
-                </div>
-              </div>
-
-              <div class="form-group">
-                <label class="form-label" for="email">Email Address</label>
-                <input class="form-input" type="email" id="email" name="email" placeholder="ahmed@company.com" required />
-                <div class="form-error" id="email-error">Please enter a valid email address.</div>
-              </div>
-
-              <div class="form-group">
-                <label class="form-label" for="phone">Phone Number</label>
-                <input class="form-input" type="tel" id="phone" name="phone" placeholder="+20 100 000 0000" />
-              </div>
-
-              <div class="form-group">
-                <label class="form-label" for="service">Service Interested In</label>
-                <select class="form-select" id="service" name="service">
-                  <option value="">Select a service...</option>
-                  <option value="laptop">Laptop Purchase</option>
-                  <option value="accessory">Accessories</option>
-                  <option value="repair">Repair & IT Support</option>
-                  <option value="branding">Branding & Design</option>
-                  <option value="marketing">Digital Marketing</option>
-                  <option value="web">Web Development</option>
-                  <option value="other">Other</option>
-                </select>
-              </div>
-
-              <div class="form-group">
-                <label class="form-label" for="message">Message</label>
-                <textarea class="form-textarea" id="message" name="message"
-                  placeholder="Tell us about your project or question..." required></textarea>
-                <div class="form-error" id="message-error">Please enter a message.</div>
-              </div>
-
-              <button type="submit" class="btn btn-primary form-submit">
-                Send Message
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                     stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
-                </svg>
-              </button>
-            </form>
+        <div class="service-card reveal reveal-delay-5">
+          <div class="service-num">04 — Web</div>
+          <div class="service-icon"><i class="fa-solid fa-code"></i></div>
+          <h3 class="service-title">Web Development</h3>
+          <p class="service-desc">
+            High-performance websites and e-commerce stores built for speed, conversions, and a
+            seamless user experience.
+          </p>
+          <div class="service-tags">
+            <span class="service-tag">Landing Pages</span>
+            <span class="service-tag">E-Commerce</span>
+            <span class="service-tag">CMS</span>
+            <span class="service-tag">Maintenance</span>
           </div>
         </div>
       </div>
-    </section>
+       <div class="service-card">
+      <div class="service-num">04 — Business Solutions</div>
+      <div class="service-icon"><i class="fa-solid fa-building"></i></div>
 
-    <div class="section-divider"></div>
+      <h3 class="service-title">Company Setup & IT Solutions</h3>
+
+      <p class="service-desc">
+        We provide complete IT solutions for businesses including device supply,
+        network setup, software installation, and ongoing technical support.
+      </p>
+
+      <div class="service-tags">
+        <span class="service-tag">Company Laptops</span>
+        <span class="service-tag">Bulk Supply</span>
+        <span class="service-tag">Network Setup</span>
+        <span class="service-tag">Office Software</span>
+        <span class="service-tag">Maintenance Contracts</span>
+        <span class="service-tag">IT Support</span>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- ─── PRODUCTS ──────────────────────────────────────── -->
+  <section id="products">
+    <div class="section-inner">
+      <div class="products-header">
+        <div>
+          <p class="section-label reveal">Our Store</p>
+          <h2 class="section-title reveal reveal-delay-1">Featured <em>Products</em></h2>
+        </div>
+        <div class="product-filter reveal reveal-delay-2">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="laptop">Laptops</button>
+          <button class="filter-btn" data-filter="accessory">Accessories</button>
+        </div>
+      </div>
+
+      <div class="products-grid">
+        <div class="product-card reveal" data-category="laptop">
+          <div class="product-img" style="padding:0;overflow:hidden;background:#000;">
+            <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&q=80" alt="MacBook Pro M3"
+              style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit;" />
+            <span class="product-badge hot" style="position:absolute;top:12px;right:12px;">🔥 Hot</span>
+          </div>
+          <div class="product-body">
+            <div class="product-category">Laptop</div>
+            <h3 class="product-name">MacBook Pro M3 14"</h3>
+            <p class="product-specs">Apple M3 Pro · 18GB RAM · 512GB SSD · Space Black</p>
+            <div class="product-footer">
+              <span class="product-price"></span>
+              <button class="product-cta">Inquire</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reveal reveal-delay-1" data-category="laptop">
+          <div class="product-img" style="padding:0;overflow:hidden;">
+            <img src="https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600&q=80" alt="Dell XPS 15"
+              style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit;" />
+            <span class="product-badge" style="position:absolute;top:12px;right:12px;">New</span>
+          </div>
+          <div class="product-body">
+            <div class="product-category">Laptop</div>
+            <h3 class="product-name">Dell XPS 15 OLED</h3>
+            <p class="product-specs">Intel Core i9 · 32GB RAM · 1TB SSD · OLED Touch</p>
+            <div class="product-footer">
+              <span class="product-price"></span>
+              <button class="product-cta">Inquire</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reveal reveal-delay-2" data-category="laptop">
+          <div class="product-img" style="padding:0;overflow:hidden;">
+            <img src="https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=600&q=80"
+              alt="ASUS ROG Zephyrus G14"
+              style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit;" />
+            <span class="product-badge" style="position:absolute;top:12px;right:12px;">Best Value</span>
+          </div>
+          <div class="product-body">
+            <div class="product-category">Laptop</div>
+            <h3 class="product-name">ASUS ROG Zephyrus G14</h3>
+            <p class="product-specs">Ryzen 9 · RTX 4060 · 16GB RAM · 1TB SSD</p>
+            <div class="product-footer">
+              <span class="product-price"></span>
+              <button class="product-cta">Inquire</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reveal reveal-delay-1" data-category="laptop">
+          <div class="product-img" style="padding:0;overflow:hidden;">
+            <img src="https://p3-ofp.static.pub//fes/cms/2024/07/05/3euk5fn03von01bjlreh1bmgmzp3kf055467.png?width=584&height=584" alt="ThinkPad X1 Carbon"
+              style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit;" />
+          </div>
+          <div class="product-body">
+            <div class="product-category">Laptop</div>
+            <h3 class="product-name">ThinkPad X1 Carbon</h3>
+            <p class="product-specs">Intel Core i7 · 16GB RAM · 512GB SSD · Carbon Black</p>
+            <div class="product-footer">
+              <span class="product-price"></span>
+              <button class="product-cta">Inquire</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reveal reveal-delay-2" data-category="accessory">
+          <div class="product-img" style="padding:0;overflow:hidden;">
+            <img src="https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600&q=80"
+              alt="Logitech MX Master 3S"
+              style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit;" />
+            <span class="product-badge" style="position:absolute;top:12px;right:12px;">Popular</span>
+          </div>
+          <div class="product-body">
+            <div class="product-category">Accessory</div>
+            <h3 class="product-name">Logitech MX Master 3S</h3>
+            <p class="product-specs">Wireless · 8000 DPI · Quiet Click · USB-C Charging</p>
+            <div class="product-footer">
+              <span class="product-price"></span>
+              <button class="product-cta">Inquire</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card reveal reveal-delay-3" data-category="accessory">
+          <div class="product-img" style="padding:0;overflow:hidden;">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&q=80" alt="Sony WH-1000XM5"
+              style="width:100%;height:100%;object-fit:cover;display:block;border-radius:inherit;" />
+          </div>
+          <div class="product-body">
+            <div class="product-category">Accessory</div>
+            <h3 class="product-name">Sony WH-1000XM5</h3>
+            <p class="product-specs">ANC · 30hr Battery · Hi-Res Audio · Midnight Black</p>
+            <div class="product-footer">
+              <span class="product-price"></span>
+              <button class="product-cta">Inquire</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align:center;margin-top:48px;" class="reveal">
+        <a href="#contact" class="btn btn-outline">View Full Catalog →</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- ─── WHY US ────────────────────────────────────────── -->
+  <section id="why">
+    <div class="section-inner">
+      <div class="why-grid">
+        <div>
+          <p class="section-label reveal">Why Debugy</p>
+          <h2 class="section-title reveal reveal-delay-1">
+            Built for<br /><em>results</em>, not<br />just projects
+          </h2>
+          <p class="section-sub reveal reveal-delay-2" style="margin-bottom:40px;">
+            Why <strong>Debugy</strong>? Most people buy technology based on a "best-seller" list,
+            only to realize six months later that the hardware can’t handle their specific workflow.
+            <br><br>
+            <strong>Debugy</strong> started as a response to this frustration. We saw too many students,
+            engineers, and creators struggling with underpowered laptops or overpaying for
+            features they’d never use. We began by providing deep dive technical advice matching
+            the right specs to the right user and grew into a full service hub for repair and marketing.
+            We don't just know how machines work; we know how people work with machines.
+          </p>
+
+          <div class="why-features">
+            <div class="why-feature reveal reveal-delay-1">
+              <div class="why-feature-icon">🏆</div>
+              <div class="why-feature-content">
+                <div class="why-feature-title">Certified Expertise</div>
+                <div class="why-feature-text">Our engineers and designers hold industry certifications, ensuring
+                  top-quality delivery every time.</div>
+              </div>
+            </div>
+            <div class="why-feature reveal reveal-delay-2">
+              <div class="why-feature-icon">⚡</div>
+              <div class="why-feature-content">
+                <div class="why-feature-title">Fast Turnaround</div>
+                <div class="why-feature-text">We respect your time. Most repairs in 24h, most designs within a week —
+                  without cutting corners.</div>
+              </div>
+            </div>
+            <div class="why-feature reveal reveal-delay-3">
+              <div class="why-feature-icon">🤝</div>
+              <div class="why-feature-content">
+                <div class="why-feature-title">End-to-End Support</div>
+                <div class="why-feature-text">From purchase to maintenance to marketing — we're your single point of
+                  contact for everything tech.</div>
+              </div>
+            </div>
+            <div class="why-feature reveal reveal-delay-4">
+              <div class="why-feature-icon">💰</div>
+              <div class="why-feature-content">
+                <div class="why-feature-title">Transparent Pricing</div>
+                <div class="why-feature-text">No hidden fees. No surprises. We quote clearly and deliver exactly what we
+                  promise.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="why-visual reveal reveal-delay-2">
+          <div class="why-metric">
+            <div class="why-metric-val">100+</div>
+            <div class="why-metric-lbl">Happy Clients</div>
+          </div>
+          <div class="why-metric">
+            <div class="why-metric-val">98%</div>
+            <div class="why-metric-lbl">Satisfaction Rate</div>
+          </div>
+          <div class="why-metric">
+            <div class="why-metric-val">24h</div>
+            <div class="why-metric-lbl">Average Repair Time</div>
+          </div>
+          <div class="why-metric">
+            <div class="why-metric-val">5★</div>
+            <div class="why-metric-lbl">Average Rating</div>
+          </div>
+          <div class="why-metric tall">
+            <div class="why-metric-val" style="font-size:2rem;color:var(--c-accent);">
+              "Your success is our metric"
+            </div>
+            <div class="why-metric-lbl" style="margin-top:8px;">— The Debugy Team</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- ─── TESTIMONIALS ──────────────────────────────────── -->
+  <section id="testimonials">
+    <div class="section-inner">
+      <p class="section-label reveal">Client Love</p>
+      <h2 class="section-title reveal reveal-delay-1">What our <em>clients</em> say</h2>
+      <p class="section-sub reveal reveal-delay-2">
+        Real feedback from real clients — individuals, startups, and established companies.
+      </p>
+
+      <div class="testimonials-grid">
+        <div class="testi-card reveal reveal-delay-1">
+          <div class="testi-quote">"</div>
+          <div class="testi-stars">
+            <span class="testi-star">★</span><span class="testi-star">★</span>
+            <span class="testi-star">★</span><span class="testi-star">★</span><span class="testi-star">★</span>
+          </div>
+          <p class="testi-text">Debugy revamped our entire brand identity and launched our social media campaigns.
+            Within 3 months, our leads doubled. Absolutely exceptional team.</p>
+          <div class="testi-author">
+            <div class="testi-avatar">A</div>
+            <div>
+              <div class="testi-name">Ahmed Mostafa</div>
+              <div class="testi-role">CEO, Nile Ventures</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal reveal-delay-2">
+          <div class="testi-quote">"</div>
+          <div class="testi-stars">
+            <span class="testi-star">★</span><span class="testi-star">★</span>
+            <span class="testi-star">★</span><span class="testi-star">★</span><span class="testi-star">★</span>
+          </div>
+          <p class="testi-text">My MacBook had a serious issue and Debugy fixed it in less than 24 hours. Professional,
+            honest, and affordable. They're my go-to for everything tech.</p>
+          <div class="testi-author">
+            <div class="testi-avatar">S</div>
+            <div>
+              <div class="testi-name">Sara Khaled</div>
+              <div class="testi-role">Freelance Designer</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal reveal-delay-3">
+          <div class="testi-quote">"</div>
+          <div class="testi-stars">
+            <span class="testi-star">★</span><span class="testi-star">★</span>
+            <span class="testi-star">★</span><span class="testi-star">★</span><span class="testi-star">★</span>
+          </div>
+          <p class="testi-text">We purchased 15 laptops for our office through Debugy. Great pricing, fast delivery, and
+            they even set up our network. A true one-stop shop!</p>
+          <div class="testi-author">
+            <div class="testi-avatar">M</div>
+            <div>
+              <div class="testi-name">Mohamed Tarek</div>
+              <div class="testi-role">Operations Manager, TechHub</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal reveal-delay-1">
+          <div class="testi-quote">"</div>
+          <div class="testi-stars">
+            <span class="testi-star">★</span><span class="testi-star">★</span>
+            <span class="testi-star">★</span><span class="testi-star">★</span><span class="testi-star">★</span>
+          </div>
+          <p class="testi-text">Their digital marketing team is phenomenal. Our Instagram grew from 2K to 28K followers
+            in 6 months, and sales followed. Real professionals.</p>
+          <div class="testi-author">
+            <div class="testi-avatar">L</div>
+            <div>
+              <div class="testi-name">Layla Hassan</div>
+              <div class="testi-role">Founder, Glow Beauty</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal reveal-delay-2">
+          <div class="testi-quote">"</div>
+          <div class="testi-stars">
+            <span class="testi-star">★</span><span class="testi-star">★</span>
+            <span class="testi-star">★</span><span class="testi-star">★</span><span class="testi-star">★</span>
+          </div>
+          <p class="testi-text">من أفضل الشركات اللي تعاملت معاها. فريق محترف جداً وخدمة ممتازة. اشتريت لابتوب وعملوا
+            صيانة دورية — كل حاجة تمام.</p>
+          <div class="testi-author">
+            <div class="testi-avatar">ك</div>
+            <div>
+              <div class="testi-name">كريم إبراهيم</div>
+              <div class="testi-role">مهندس برمجيات</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal reveal-delay-3">
+          <div class="testi-quote">"</div>
+          <div class="testi-stars">
+            <span class="testi-star">★</span><span class="testi-star">★</span>
+            <span class="testi-star">★</span><span class="testi-star">★</span><span class="testi-star">★</span>
+          </div>
+          <p class="testi-text">Debugy built our e-commerce website and handled our ad campaigns. The ROI was incredible
+            — 4x return on ad spend in the first quarter alone.</p>
+          <div class="testi-author">
+            <div class="testi-avatar">N</div>
+            <div>
+              <div class="testi-name">Nour El-Din</div>
+              <div class="testi-role">E-Commerce Entrepreneur</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- ─── CONTACT ───────────────────────────────────────── -->
+  <section id="contact">
+    <div class="section-inner">
+      <div style="text-align:center;max-width:600px;margin:0 auto 72px;">
+        <p class="section-label reveal" style="justify-content:center;">Get In Touch</p>
+        <h2 class="section-title reveal reveal-delay-1">Let's build something <em>great</em></h2>
+        <p class="section-sub reveal reveal-delay-2" style="margin:12px auto 0;">
+          Ready to start? Drop us a message and we'll get back to you within 24 hours.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <p class="section-label">Reach Us</p>
+          <h3 class="section-title" style="font-size:2rem;">We're always<br /><em>available</em></h3>
+          <p class="section-sub" style="margin-top:12px;">
+            Offices in Egypt. Remote globally. Available 7 days a week for urgent support.
+          </p>
+
+          <div class="contact-channels">
+            <a href="https://wa.me/021044412201" target="_blank" class="contact-channel">
+              <div class="contact-channel-icon">📱</div>
+              <div>
+                <div class="contact-channel-label">WhatsApp</div>
+                <div class="contact-channel-val">+20 1044412201</div>
+              </div>
+            </a>
+            <a href="mailto:debugyservices@gmail.com" class="contact-channel">
+              <div class="contact-channel-icon">✉️</div>
+              <div>
+                <div class="contact-channel-label">Email</div>
+                <div class="contact-channel-val">debugyservices@gmail.com</div>
+              </div>
+            </a>
+            <div class="contact-channel">
+              <div class="contact-channel-icon">📍</div>
+              <div>
+                <div class="contact-channel-label">Location</div>
+                <div class="contact-channel-val">Cairo, Egypt</div>
+              </div>
+            </div>
+            <div class="contact-channel">
+              <div class="contact-channel-icon">🕐</div>
+              <div>
+                <div class="contact-channel-label">Working Hours</div>
+                <div class="contact-channel-val">Sat–Thu · 9AM – 9PM</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form reveal reveal-delay-2">
+          <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:400;margin-bottom:28px;">
+            Send us a message
+          </h3>
+
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="fname">First Name</label>
+                <input class="form-input" type="text" id="fname" name="fname" placeholder="Ahmed" required />
+                <div class="form-error" id="fname-error">Please enter your first name.</div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="lname">Last Name</label>
+                <input class="form-input" type="text" id="lname" name="lname" placeholder="Mohamed" required />
+                <div class="form-error" id="lname-error">Please enter your last name.</div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="email">Email Address</label>
+              <input class="form-input" type="email" id="email" name="email" placeholder="ahmed@company.com" required />
+              <div class="form-error" id="email-error">Please enter a valid email address.</div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="phone">Phone Number</label>
+              <input class="form-input" type="tel" id="phone" name="phone" placeholder="+20 100 000 0000" />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="service">Service Interested In</label>
+              <select class="form-select" id="service" name="service">
+                <option value="">Select a service...</option>
+                <option value="laptop">Laptop Purchase</option>
+                <option value="accessory">Accessories</option>
+                <option value="repair">Repair & IT Support</option>
+                <option value="branding">Branding & Design</option>
+                <option value="marketing">Digital Marketing</option>
+                <option value="web">Web Development</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="message">Message</label>
+              <textarea class="form-textarea" id="message" name="message"
+                placeholder="Tell us about your project or question..." required></textarea>
+              <div class="form-error" id="message-error">Please enter a message.</div>
+            </div>
+
+            <button type="submit" class="btn btn-primary form-submit">
+              Send Message
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
 
 
 
-    
-    <!-- ─── FOOTER ────────────────────────────────────────── -->
-    <footer>
-      <div class="footer-inner">
-        <div class="footer-top">
-          <div class="footer-brand">
-            <a href="#hero" class="logo">
+
+  <!-- ─── FOOTER ────────────────────────────────────────── -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <!-- <a href="#hero" class="logo">
               <div class="logo-icon">
                 <img src="Photos/logo3.png" alt="footer logo">
               </div>
-              
             </a>
-            <p class="footer-brand-text">
-              Your complete tech and creative partner. Laptops, IT services, and marketing — all under one roof.
-            </p>
-            <div class="footer-socials">
-              <a href="#" class="footer-social" title="Instagram">📸</a>
-              <a href="#" class="footer-social" title="Facebook">📘</a>
-              <a href="#" class="footer-social" title="LinkedIn">💼</a>
-              <a href="#" class="footer-social" title="WhatsApp">📱</a>
-            </div>
-          </div>
+            -->
 
-          <div class="footer-col">
-            <h4>Products</h4>
-            <ul>
-              <li><a href="#products">MacBooks</a></li>
-              <li><a href="#products">Dell Laptops</a></li>
-              <li><a href="#products">Gaming Laptops</a></li>
-              <li><a href="#products">Business Laptops</a></li>
-              <li><a href="#products">Accessories</a></li>
-            </ul>
-          </div>
-
-          <div class="footer-col">
-            <h4>Services</h4>
-            <ul>
-              <li><a href="#services">Laptop Repair</a></li>
-              <li><a href="#services">IT Support</a></li>
-              <li><a href="#services">Branding & Design</a></li>
-              <li><a href="#services">Digital Marketing</a></li>
-              <li><a href="#services">Web Development</a></li>
-            </ul>
-          </div>
-
-          <div class="footer-col">
-            <h4>Company</h4>
-            <ul>
-              <li><a href="#about">About Us</a></li>
-              <li><a href="#why">Why Debugy</a></li>
-              <li><a href="#testimonials">Testimonials</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
+          <a href="#hero" class="logo">
+            <img src="Photos/logo3.png" alt="footer logo" class="footer-logo">
+          </a>
+          <p class="footer-brand-text">
+            Your complete tech and creative partner. Laptops, IT services, and marketing — all under one roof.
+          </p>
+          <div class="footer-socials">
+            <a href="#" class="footer-social" title="Instagram"><svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+                <path fill="rgb(255, 255, 255)"
+                  d="M320.3 205C256.8 204.8 205.2 256.2 205 319.7C204.8 383.2 256.2 434.8 319.7 435C383.2 435.2 434.8 383.8 435 320.3C435.2 256.8 383.8 205.2 320.3 205zM319.7 245.4C360.9 245.2 394.4 278.5 394.6 319.7C394.8 360.9 361.5 394.4 320.3 394.6C279.1 394.8 245.6 361.5 245.4 320.3C245.2 279.1 278.5 245.6 319.7 245.4zM413.1 200.3C413.1 185.5 425.1 173.5 439.9 173.5C454.7 173.5 466.7 185.5 466.7 200.3C466.7 215.1 454.7 227.1 439.9 227.1C425.1 227.1 413.1 215.1 413.1 200.3zM542.8 227.5C541.1 191.6 532.9 159.8 506.6 133.6C480.4 107.4 448.6 99.2 412.7 97.4C375.7 95.3 264.8 95.3 227.8 97.4C192 99.1 160.2 107.3 133.9 133.5C107.6 159.7 99.5 191.5 97.7 227.4C95.6 264.4 95.6 375.3 97.7 412.3C99.4 448.2 107.6 480 133.9 506.2C160.2 532.4 191.9 540.6 227.8 542.4C264.8 544.5 375.7 544.5 412.7 542.4C448.6 540.7 480.4 532.5 506.6 506.2C532.8 480 541 448.2 542.8 412.3C544.9 375.3 544.9 264.5 542.8 227.5zM495 452C487.2 471.6 472.1 486.7 452.4 494.6C422.9 506.3 352.9 503.6 320.3 503.6C287.7 503.6 217.6 506.2 188.2 494.6C168.6 486.8 153.5 471.7 145.6 452C133.9 422.5 136.6 352.5 136.6 319.9C136.6 287.3 134 217.2 145.6 187.8C153.4 168.2 168.5 153.1 188.2 145.2C217.7 133.5 287.7 136.2 320.3 136.2C352.9 136.2 423 133.6 452.4 145.2C472 153 487.1 168.1 495 187.8C506.7 217.3 504 287.3 504 319.9C504 352.5 506.7 422.6 495 452z" />
+              </svg></a>
+            <a href="#" class="footer-social" title="Facebook"><svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+                <path fill="rgb(255, 255, 255)"
+                  d="M576 320C576 178.6 461.4 64 320 64C178.6 64 64 178.6 64 320C64 440 146.7 540.8 258.2 568.5L258.2 398.2L205.4 398.2L205.4 320L258.2 320L258.2 286.3C258.2 199.2 297.6 158.8 383.2 158.8C399.4 158.8 427.4 162 438.9 165.2L438.9 236C432.9 235.4 422.4 235 409.3 235C367.3 235 351.1 250.9 351.1 292.2L351.1 320L434.7 320L420.3 398.2L351 398.2L351 574.1C477.8 558.8 576 450.9 576 320z" />
+              </svg></a>
+            <a href="https://www.linkedin.com/in/debugy-services-677635405/" class="footer-social" title="LinkedIn"><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+                <path fill="rgb(255, 255, 255)"
+                  d="M512 96L127.9 96C110.3 96 96 110.5 96 128.3L96 511.7C96 529.5 110.3 544 127.9 544L512 544C529.6 544 544 529.5 544 511.7L544 128.3C544 110.5 529.6 96 512 96zM231.4 480L165 480L165 266.2L231.5 266.2L231.5 480L231.4 480zM198.2 160C219.5 160 236.7 177.2 236.7 198.5C236.7 219.8 219.5 237 198.2 237C176.9 237 159.7 219.8 159.7 198.5C159.7 177.2 176.9 160 198.2 160zM480.3 480L413.9 480L413.9 376C413.9 351.2 413.4 319.3 379.4 319.3C344.8 319.3 339.5 346.3 339.5 374.2L339.5 480L273.1 480L273.1 266.2L336.8 266.2L336.8 295.4L337.7 295.4C346.6 278.6 368.3 260.9 400.6 260.9C467.8 260.9 480.3 305.2 480.3 362.8L480.3 480z" />
+              </svg></a>
+            <a href="https://wa.me/+201044412201" class="footer-social" title="WhatsApp"><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+                <path fill="rgb(255, 255, 255)"
+                  d="M476.9 161.1C435 119.1 379.2 96 319.9 96C197.5 96 97.9 195.6 97.9 318C97.9 357.1 108.1 395.3 127.5 429L96 544L213.7 513.1C246.1 530.8 282.6 540.1 319.8 540.1L319.9 540.1C442.2 540.1 544 440.5 544 318.1C544 258.8 518.8 203.1 476.9 161.1zM319.9 502.7C286.7 502.7 254.2 493.8 225.9 477L219.2 473L149.4 491.3L168 423.2L163.6 416.2C145.1 386.8 135.4 352.9 135.4 318C135.4 216.3 218.2 133.5 320 133.5C369.3 133.5 415.6 152.7 450.4 187.6C485.2 222.5 506.6 268.8 506.5 318.1C506.5 419.9 421.6 502.7 319.9 502.7zM421.1 364.5C415.6 361.7 388.3 348.3 383.2 346.5C378.1 344.6 374.4 343.7 370.7 349.3C367 354.9 356.4 367.3 353.1 371.1C349.9 374.8 346.6 375.3 341.1 372.5C308.5 356.2 287.1 343.4 265.6 306.5C259.9 296.7 271.3 297.4 281.9 276.2C283.7 272.5 282.8 269.3 281.4 266.5C280 263.7 268.9 236.4 264.3 225.3C259.8 214.5 255.2 216 251.8 215.8C248.6 215.6 244.9 215.6 241.2 215.6C237.5 215.6 231.5 217 226.4 222.5C221.3 228.1 207 241.5 207 268.8C207 296.1 226.9 322.5 229.6 326.2C232.4 329.9 268.7 385.9 324.4 410C359.6 425.2 373.4 426.5 391 423.9C401.7 422.3 423.8 410.5 428.4 397.5C433 384.5 433 373.4 431.6 371.1C430.3 368.6 426.6 367.2 421.1 364.5z" />
+              </svg></a>
           </div>
         </div>
 
-        <div class="footer-bottom">
-          <p class="footer-copy">© 2025 Debugy. All rights reserved. Built with ♥ in Egypt.</p>
-          <div class="footer-legal">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
-          </div>
+        <div class="footer-col">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="#products">MacBooks</a></li>
+            <li><a href="#products">Dell Laptops</a></li>
+            <li><a href="#products">Gaming Laptops</a></li>
+            <li><a href="#products">Business Laptops</a></li>
+            <li><a href="#products">Accessories</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Laptop Repair</a></li>
+            <li><a href="#services">IT Support</a></li>
+            <li><a href="#services">Branding & Design</a></li>
+            <li><a href="#services">Digital Marketing</a></li>
+            <li><a href="#services">Web Development</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#why">Why Debugy</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
         </div>
       </div>
-    </footer>
 
-    <!-- ─── WHATSAPP FLOAT ──────────────────────────────── -->
-    <div class="wa-float">
-      <div class="wa-tooltip">Chat on WhatsApp</div>
-      <a href="https://wa.me/201044412201" target="_blank" class="wa-btn" title="WhatsApp">
-        <svg width="28" height="28" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-        </svg>
-      </a>
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2025 Debugy. All rights reserved. Built with ♥ in Egypt.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
     </div>
+  </footer>
+  <!-- ─── WHATSAPP FLOAT ──────────────────────────────── -->
+  <div class="wa-float">
+    <div class="wa-tooltip">Chat on WhatsApp</div>
+    <a href="https://wa.me/201044412201" target="_blank" class="wa-btn" title="WhatsApp">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+      </svg>
+    </a>
+  </div>
 
-    <!-- Toast Notification -->
-    <div class="toast" id="toast"></div>
+  <!-- Toast Notification -->
+  <div class="toast" id="toast"></div>
 
-    <!-- ─── JAVASCRIPT ──────────────────────────────────── -->
-    <script src="script.js"></script>
-  </body>
+  <!-- ─── JAVASCRIPT ──────────────────────────────────── -->
+  <script src="script.js"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+
 </html>
